@@ -4,7 +4,7 @@ const {MONGODB_URL,PORT}  = require('./utils/config')
 const app = express()
 const cors = require('cors')
 const reqLogger = require('./utils/middleware')
-const userRouter = require('./controlles/Users')
+const userRouter = require('./routes/userRoutes')
 
 //connecting to database
 mongoose.set('strictQuery',false)
