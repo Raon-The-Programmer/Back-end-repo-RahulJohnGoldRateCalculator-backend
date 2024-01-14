@@ -118,7 +118,7 @@ const userController = {
                 from: { name: 'John', address: 'msdrahuljohn@gmail.com' },
                 to:email,
                 subject: 'Reset Password',
-                text: `http://localhost:5173/resetpassword/${user._id}/${token}`
+                text: `https://aesthetic-biscotti-d1a45d.netlify.app/resetpassword/${user._id}/${token}`
             }
             transporter.sendMail(mailOption, (err, info) => {
                 if (err) {
