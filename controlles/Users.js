@@ -135,7 +135,9 @@ const userController = {
     },
     resetPassword: async (req, res) => {
         try {
+        
           const { userId, token } = req.params;
+
           const { newPassword } = req.body;
     
           // Verify the token
