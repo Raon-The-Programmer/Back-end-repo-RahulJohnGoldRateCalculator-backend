@@ -107,10 +107,10 @@ const userController = {
             const token = jwt.sign({ id: user._id }, JWT_SECRET, { expiresIn: '2h' })
             const transporter = nodemailer.createTransport({
                 service: 'gmail',
-                host: 'smpt.gmail.com',
+                host: 'smtp.gmail.com',
                 auth: {
                     user: "msdrahuljohn@gmail.com",
-                    pass: "asad qnea mfbk ibbm "
+                    pass: "ayxy xrsp dggl jtrz"
                 }
         
             })
